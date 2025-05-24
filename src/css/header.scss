@@ -24,5 +24,19 @@
     }
 }
 
+/* ✅ Responsive media query */
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 20px;
+        padding-bottom: 20px;
 
+        > h1 {
+            font-size: 2.25rem;
+        }
+
+        > span {
+            font-size: 1.125rem;
+        }
+    }
+}
 

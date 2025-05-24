@@ -10,7 +10,7 @@ export default function SignIn() {
             <form className={styles.form}>
                 <label htmlFor="username" className={styles.srOnly}>Username</label>
                 <input type='text' name='username' id='username' className={styles.input} placeholder='Username' required></input>
-
+            
                 <label htmlFor="email" className={styles.srOnly}>Email</label>
                 <input type='email' name='email' id='email' className={styles.input} placeholder='Email' required></input>
 

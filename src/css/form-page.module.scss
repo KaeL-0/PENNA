@@ -121,7 +121,10 @@
   padding: 20px 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
+  .header {
+    font-size: 2rem;
+  }
   .form {
     width: 60vw;
   }

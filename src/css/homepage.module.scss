@@ -18,7 +18,7 @@ hr {
 }
 
 .feed {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .feedList {
@@ -109,7 +109,7 @@ hr {
 }
 
 .blogPost {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .blogpostInfo {
@@ -227,6 +227,24 @@ hr {
     width: 90vw;
   }
 
+  .feedList {
+    font-size: 1rem;
+    gap: 6px;
+  }
+
+  .blogpostUsername {
+    font-size: 0.9rem;
+  }
+
+  .blogpostDate {
+    font-size: 0.775rem;
+  }
+
+  .favorites {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+
   .aside {
     margin: 32px 0 0 0;
     top: 0;
@@ -247,15 +265,10 @@ hr {
 }
 
 @media (max-width: 480px) {
-  .feedList {
-    font-size: 1rem;
-    flex-direction: column;
-    gap: 6px;
-  }
+  
 
   .blogpostInfo {
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 8px;
   }
 
