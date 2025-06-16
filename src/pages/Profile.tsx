@@ -2,7 +2,7 @@ import styles from '../css/profile.module.scss'
 import shared from '../css/homepage.module.scss'
 import { IoSettingsOutline } from 'react-icons/io5';
 import { NavLink } from 'react-router-dom';
-import BlogElements from '../components/BlogElements.tsx';
+import ArticleElements from '../components/ArticleElements.tsx';
 
 export default function Profile() {
     return (
@@ -28,7 +28,7 @@ export default function Profile() {
                     </ul>
                     <hr />
                 </div>
-                <BlogElements />
+                <ArticleElements />
             </main>
         </div>
     )

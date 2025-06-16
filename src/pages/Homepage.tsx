@@ -1,11 +1,9 @@
 import Header from '../components/Header.tsx';
-import BlogElements from '../components/BlogElements.tsx';
+import ArticleElements from '../components/ArticleElements.tsx';
 import styles from '../css/homepage.module.scss';
 
 
 export default function Main() {
-
-
 
     return (
         <>
@@ -19,7 +17,7 @@ export default function Main() {
                         </ul>
                         <hr />
                     </div>
-                    <BlogElements />
+                    <ArticleElements />
                 </main>
                 
                 <aside className={styles.aside}>

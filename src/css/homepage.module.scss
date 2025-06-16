@@ -108,18 +108,18 @@ hr {
     border-bottom: 2.4px solid v.$primary-color;
 }
 
-.blogPost {
+.articlePost {
     margin-bottom: 20px;
 }
 
-.blogpostInfo {
+.articlepostInfo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.blogpostInfoContainer {
+.articlepostInfoContainer {
     display: flex;
     align-items: center;
 }
@@ -136,18 +136,18 @@ hr {
     max-height: 100%;
 }
 
-.blogpostNameDate {
+.articlepostNameDate {
     display: flex;
     flex-direction: column;
     margin-left: 12px;
 }
 
-.blogpostUsername {
+.articlepostUsername {
     font-size: 1rem;
     color: v.$primary-color;
 }
 
-.blogpostDate {
+.articlepostDate {
     font-size: 0.875rem;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.5);
@@ -171,27 +171,27 @@ hr {
     background-color: v.$primary-color;
 }
 
-.blogPost > h2 {
+.articlePost > h2 {
     font-family: v.$secondary-font;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 14px;
 }
 
-.blogPost > p {
+.articlePost > p {
     font-size: 1rem;
     font-weight: 350;
     line-height: 1.5;
     margin-bottom: 6px;
 }
 
-.blogPost > span {
+.articlePost > span {
     font-size: 0.812rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.blogPost > hr {
+.articlePost > hr {
     margin-top: 26px;
 }
 
@@ -232,11 +232,11 @@ hr {
     gap: 6px;
   }
 
-  .blogpostUsername {
+  .articlepostUsername {
     font-size: 0.9rem;
   }
 
-  .blogpostDate {
+  .articlepostDate {
     font-size: 0.775rem;
   }
 
@@ -267,7 +267,7 @@ hr {
 @media (max-width: 480px) {
   
 
-  .blogpostInfo {
+  .articlepostInfo {
     align-items: center;
     gap: 8px;
   }
@@ -276,15 +276,15 @@ hr {
     align-self: flex-end;
   }
 
-  .blogPost > h2 {
+  .articlePost > h2 {
     font-size: 1.5rem;
   }
 
-  .blogPost > p {
+  .articlePost > p {
     font-size: 0.95rem;
   }
 
-  .blogPost > span {
+  .articlePost > span {
     font-size: 0.75rem;
   }
 }

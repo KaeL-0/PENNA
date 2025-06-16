@@ -74,6 +74,15 @@
     border: none;
 }
 
+@media (max-height: 600px) {
+
+  .header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+}
+
 @media (max-width: 768px) {
   .header {
     height: auto;               // Let header height adjust automatically

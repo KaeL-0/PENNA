@@ -1,14 +1,15 @@
-type Blog = {
-    username: string,
-    userProfileImageUrl: string,
-    postDate: Date,
-    title: string,
-    about: string,
-    content: string,
-    favorites: number
-}
+type Article = {
+  username: string;
+  userProfileImageUrl: string;
+  postDate: string | Date;
+  title: string;
+  slug?: string;
+  about: string;
+  content: string;
+  favorites: number;
+};
 
-const blogs: Blog[] = [
+const articles: Article[] = [
     {
         username: 'Mikhael Edman P. Gomez',
         userProfileImageUrl: '/MikhaelGomez.jpg',
@@ -33,5 +34,5 @@ const blogs: Blog[] = [
     }
 ]
 
-export default blogs
-export type { Blog }
+export default articles
+export type { Article }
